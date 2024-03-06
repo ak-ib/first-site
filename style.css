@@ -1,0 +1,64 @@
+<Style>
+    #head{ 
+        color: blue;
+         }
+    img{
+        height: 25%;
+        width: 25%;
+       }
+
+    h2{
+       color: blueviolet;
+       text-align: center;
+      }
+
+    h1{
+        text-align: center;
+        color: darkblue;
+      }
+    .product{
+        border: 3px solid red;
+        border-radius: 10px;
+        margin: 5px;
+        padding: 10px; 
+           }
+    .paragraph
+    {
+         margin:5px ;
+        width: 30%;
+        padding: 10px;
+        float: left;
+    }
+    .form
+    {
+        border: 2px solid rgb(115, 240, 31);
+        width: 50%;
+    }
+    .ppp
+    {
+        border-radius: 10px;
+    }
+    .mapimage
+    {
+        border: 3px solid red;
+        border-radius: 10px;
+        margin: 5px;
+        padding: 10px;
+    }
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 50%;
+      }
+      
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+
+</Style>
