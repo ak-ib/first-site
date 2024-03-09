@@ -2,26 +2,17 @@
     #head{ 
         color: blue;
          }
-    img{
-        height: 25%;
-        width: 25%;
-       }
+    
 
     h2{
        color: blueviolet;
-       text-align: center;
       }
 
     h1{
         text-align: center;
         color: darkblue;
       }
-    .product{
-        border: 3px solid red;
-        border-radius: 10px;
-        margin: 5px;
-        padding: 10px; 
-           }
+ 
     .paragraph
     {
          margin:5px ;
@@ -63,5 +54,30 @@
       }
 h4{
     text-align: center;
+}
+#quote{
+  text-align: center;
+  color: hotpink;
+}
+.samiha{
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.highlight{
+  color: orangered;
+}
+.samiha img{
+  width: 100%;
+}
+.mou{
+  width: 40%;
+  float: right;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.mou img{
+  width: 100%;
 }
 </Style>
