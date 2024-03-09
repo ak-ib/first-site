@@ -1,4 +1,7 @@
 <Style>
+body{
+  margin: 0;
+}
     #head{ 
         color: blue;
          }
@@ -80,4 +83,12 @@ h4{
 .mou img{
   width: 100%;
 }
+section{
+  height: 400px;
+}
+.top-banner{
+  background-image: url("image/header-bg.png");
+  background-repeat: no-repeat;
+}
+
 </Style>
