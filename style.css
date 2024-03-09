@@ -84,12 +84,11 @@ h4{
   width: 100%;
 }
 section{
-  height: 400px;
+  height: 500px;
 }
 .top-banner{
   background-image: url("image/header-bg.png");
   background-repeat: no-repeat;
 }
-
 
 </Style>
