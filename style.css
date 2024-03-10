@@ -1,13 +1,15 @@
 <Style>body {
   margin: 0;
 }
-
+header{
+  margin-bottom: 50px;
+}
 #head {
-  color: blue;
+  color: rgb(8, 8, 116);
 }
 
 .navbar {
-  background-color: #af8c4c;
+  background-color: #691550;
   margin: 5px;
   border-radius: 20px;
 }
@@ -122,8 +124,8 @@ h4 {
 
 
 section {
-  height: 500px;
-  padding-bottom: 90px;
+  height: 480px;
+  padding-bottom: 10px;
 }
 
 .top-banner {
@@ -183,6 +185,7 @@ input[type=submit] {
 }
 .quotes{
   height: 220px;
+  margin-bottom: 100px;
 }
 .love-sex{
   box-shadow: 10px 10px 50px rgb(201, 201, 87);
@@ -200,4 +203,5 @@ input[type=submit] {
   text-align: center;
   text-size-adjust: 12px;
 }
+
 </Style>
