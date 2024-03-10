@@ -8,7 +8,7 @@
 
 .navbar {
   background-color: #af8c4c;
-  margin: 30px;
+  margin: 5px;
   border-radius: 20px;
 }
 .navbar ul{
@@ -36,7 +36,7 @@ margin: 20px 25px;
   padding: 5px 10px;
   width: 220px;
 }
-h2 {
+.name {
   color: blueviolet;
 }
 
@@ -45,6 +45,16 @@ h1 {
   color: darkblue;
 }
 
+.contact{
+  text-decoration: none;
+  background-color: #904caf;
+  padding: 8px 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+
+
+}
 .paragraph {
   margin: 5px;
   width: 30%;
@@ -90,7 +100,7 @@ h4 {
   text-align: center;
 }
 
-#quote {
+.quote {
   text-align: center;
   color: hotpink;
 }
@@ -110,19 +120,10 @@ h4 {
   width: 100%;
 }
 
-.mou {
-  width: 40%;
-  float: right;
-  margin-left: 5%;
-  padding-left: 2%;
-}
-
-.mou img {
-  width: 100%;
-}
 
 section {
   height: 500px;
+  padding-bottom: 90px;
 }
 
 .top-banner {
@@ -180,5 +181,23 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
-
+.quotes{
+  height: 220px;
+}
+.love-sex{
+  box-shadow: 10px 10px 50px rgb(201, 201, 87);
+  border-radius: 10px;
+  height: 220px;
+  padding-left: 30px;
+}
+#love{
+  border-left: 6px solid salmon;
+}
+#sex{
+  border-left: 6px solid rosybrown;
+}
+#footer{
+  text-align: center;
+  text-size-adjust: 12px;
+}
 </Style>
