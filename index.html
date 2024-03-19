@@ -11,19 +11,46 @@
 </head>
 
 <body>
-
   <header>
-    <nav class="navbar">
-      <ul>
-        <li><a href="https://ak-ib.github.io/first-site/">Home</a></li>
-        <li><a href="#">Category</a></li>
-        <li><a href="https://www.instagram.com/p/C2B6irUr7ML/?img_index=5">Images</a></li>
-        <li><a href="#">Contact</a></li>
-        <div class="search">
-          <input type="text" class="search" id="search" placeholder="search here...">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light nav-bg text-white">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="https://ak-ib.github.io/first-site/#"><img src="image/favicon.ico"
+            alt="Navbar"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="https://ak-ib.github.io/first-site/#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Image</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Ladies
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
         </div>
-      </ul>
-
+        <div>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
     </nav>
     <h1 id="head">Lovely Ladies</h1>
     <h2 class="quote">"Unleash your inner fire, ignite the world with your allure. Be bold, be fierce, be a Hotty!"</h2>
@@ -32,8 +59,8 @@
   <section class="top-banner">
     <div class="samiha">
       <h2 class="name">Sharika Samiha</h2>
-      <h3>"She's beauty <span class="highlight">without brains</span>, a firecracker in disguise."</h3>
-      <h3>"Strong is the new pretty."</h3>
+      <h3>"She's beauty with brains, a firecracker in disguise."</h3>
+      <h3>"Strong is the new <span class="highlight">pretty</span> ."</h3>
       <h3>"The world needs more of her kind of sparkle."</h3><br><br>
       <a class="contact" target="_blank" href="https://www.instagram.com/sharikasamiha/">INSTAGRAM</a>
       <a class="contact" target="_blank"
@@ -101,13 +128,17 @@
     <div class="samiha love-sex" id="love">
       <h2 style="color: salmon;">LOVE</h2>
       <h3 class="quote">What is the best definition of real love?</h3>
-      <p>True love fosters a connection that goes beyond the superficial. It's a bond that often involves understanding each other's core values, beliefs, and life goals. This connection creates a sense of companionship, where both partners feel they're on the same team, working towards common dreams.</p>
+      <p>True love fosters a connection that goes beyond the superficial. It's a bond that often involves understanding
+        each other's core values, beliefs, and life goals. This connection creates a sense of companionship, where both
+        partners feel they're on the same team, working towards common dreams.</p>
 
     </div>
     <div class="samiha love-sex" id="sex">
-     <h2 style="color: rosybrown;">SEX</h2>
-     <h3 class="quote">What is the main definition of sex?</h3>
-     <p>Sex refers to “the different biological and physiological characteristics of males and females, such as reproductive organs, chromosomes, hormones, etc.” Gender refers to "the socially constructed characteristics of women and men – such as norms, roles and relationships of and between groups of women and men.</p>
+      <h2 style="color: rosybrown;">SEX</h2>
+      <h3 class="quote">What is the main definition of sex?</h3>
+      <p>Sex refers to “the different biological and physiological characteristics of males and females, such as
+        reproductive organs, chromosomes, hormones, etc.” Gender refers to "the socially constructed characteristics of
+        women and men – such as norms, roles and relationships of and between groups of women and men.</p>
 
     </div>
   </section>
@@ -140,9 +171,9 @@
 
   </div> -->
 
- 
+
   <table>
-    <caption>Data Table</caption>
+    <h3 id="data-table">Data Table</h3>
     <thead>
       <th>Name</th>
       <th>Class</th>
@@ -171,10 +202,6 @@
       </tr>
     </tbody>
   </table>
- 
-
-
-
 
   <div class="ppp">
     <article class="paragraph">
